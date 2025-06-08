@@ -22,7 +22,24 @@ The dataset contains the following key features:
 The original training file is in Excel format (`Train.xlsx`) and contains raw records that are grouped and encoded before modeling.
 
 ---
+## ⚙️ Installation & Setup
 
+Run the following commands to set up the environment:
+
+```bash
+# For macOS users (required for Prophet)
+brew install libomp
+# if using windows ignore libomp
+# Python dependencies
+pip install prophet
+pip install pmdarima
+pip install optuna
+pip install pandas
+pip install torch
+pip install matplotlib
+pip install scikit-learn
+```
+---
 ## 🎯 Objective
 
 To build a model that can:
